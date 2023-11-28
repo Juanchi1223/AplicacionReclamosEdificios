@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    border-collapse: separate;
+    text-align: center;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.bottonActualizar,
+.bottonEliminar {
+    padding: 5px; /* Adjust the padding as needed */
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Adjust the font size as needed */
+    border-radius: 0.7rem;
+    border: none;
+}
+
+.bottonActualizar:hover {
+    background-color: #fdfd96;
+    border-radius: 0.7rem;
+    border: none;
+}
+
+.bottonEliminar:hover {
+    color: aliceblue;
+    background-color: #FFC0CB;
+    border-radius: 0.7rem;
+    border: none;
+}

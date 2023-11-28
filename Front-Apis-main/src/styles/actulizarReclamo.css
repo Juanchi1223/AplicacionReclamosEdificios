@@ -1,0 +1,24 @@
+.backButtonReclamos{
+    margin-top: 75px;
+    border-radius: 0.7rem;
+    border-width: 1px;
+}
+
+.titulo{
+    margin-top: 15px;
+}
+
+.items{
+    margin-bottom: 10px;
+}
+
+.bottonReclamo{
+    /* margin-left: 50%; */
+    font-size: 15px;
+    width: 100%;
+}
+
+.bottonReclamo:hover{
+    transition: 150ms;
+    background-color: #9DFCB5;
+}

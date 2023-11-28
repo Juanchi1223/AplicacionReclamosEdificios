@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bodyUsuarios {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.backButton {
+    margin-top: 15px;
+    border-radius: 0.7rem;
+    border-width: 1px;
+}
+
+.logout{
+    margin-top: 250px;
+    border-radius: 0.7rem;
+    border-width: 1px;
+
+}
+
+.buscadorContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.buscador input {
+    padding: 8px;
+    margin-right: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.buscador{
+    margin-top: 15px;
+}
+
+.buscador button {
+    padding: 8px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+.buscador button:hover {
+    background-color: #2980b9;
+}
+
+.informacion {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.informacion > div {
+    margin-bottom: 10px;
+}
+
+.informacion > div:last-child {
+    margin-bottom: 0;
+}
+
+.headder{
+    margin-top: 15px;
+}
+
+.botonAgregar{
+    margin-top: 15px;
+}
+
+/* ... (existing styles, if any) */

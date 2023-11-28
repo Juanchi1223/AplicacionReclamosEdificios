@@ -1,0 +1,66 @@
+/* loginStyle.css */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use the full height of the viewport */
+    margin: 0; /* Remove default body margin */
+    
+}
+
+.login {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    margin-top: 175px;
+}
+
+.titulo-login {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+.casilla {
+    margin-bottom: 15px;
+}
+
+.casilla input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.casillaNombre {
+    background-color: #f9f9f9;
+}
+
+.casillaContraseña {
+    background-color: #f5f5f5;
+}
+
+.summit {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.summit:hover {
+    background-color: #2980b9;
+}
